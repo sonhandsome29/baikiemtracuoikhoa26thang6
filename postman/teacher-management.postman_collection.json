@@ -1,0 +1,175 @@
+{
+  "info": {
+    "_postman_id": "6d5356c7-0d84-4e7f-b4b3-9b63430ef001",
+    "name": "Teacher Management API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Bo request Postman de test backend quan ly giao vien."
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000"
+    },
+    {
+      "key": "teacherPositionId",
+      "value": "REPLACE_WITH_POSITION_ID"
+    },
+    {
+      "key": "teacherId",
+      "value": "REPLACE_WITH_TEACHER_ID"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            ""
+          ]
+        }
+      }
+    },
+    {
+      "name": "Teachers",
+      "item": [
+        {
+          "name": "GET /teachers",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/teachers",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "teachers"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /teachers?page=1&limit=5",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/teachers?page=1&limit=5",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "teachers"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1"
+                },
+                {
+                  "key": "limit",
+                  "value": "5"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /teachers/:id",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/teachers/{{teacherId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "teachers",
+                "{{teacherId}}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /teachers",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Thai Duong Son\",\n  \"email\": \"thaiduongson@example.com\",\n  \"phoneNumber\": \"0987654321\",\n  \"address\": \"Ha Noi\",\n  \"identity\": \"001204004444\",\n  \"dob\": \"2004-04-20\",\n  \"isActive\": true,\n  \"teacherPositionId\": \"{{teacherPositionId}}\",\n  \"avatar\": \"\",\n  \"educations\": [\n    {\n      \"level\": \"Cu nhan\",\n      \"school\": \"Dai hoc Quoc gia Ha Noi\",\n      \"major\": \"Cong nghe thong tin\",\n      \"status\": \"Da tot nghiep\",\n      \"graduatedAt\": \"2026\"\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/teachers",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "teachers"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Teacher Positions",
+      "item": [
+        {
+          "name": "GET /teacher-positions",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/teacher-positions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "teacher-positions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /teacher-positions",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"code\": \"HANQUOC\",\n  \"name\": \"Han Quoc\",\n  \"des\": \"Vi tri cong tac tai Han Quoc\",\n  \"isActive\": true\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/teacher-positions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "teacher-positions"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

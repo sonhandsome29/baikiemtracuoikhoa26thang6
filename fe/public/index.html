@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teacher Management</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">WEB FULLSTACK - FINAL TEST</p>
+          <h1>Quan ly giao vien va vi tri cong tac</h1>
+        </div>
+        <div class="hero-stats">
+          <article>
+            <span id="teacher-count">0</span>
+            <small>Giao vien</small>
+          </article>
+          <article>
+            <span id="position-count">0</span>
+            <small>Vi tri</small>
+          </article>
+        </div>
+      </header>
+
+      <nav class="tab-bar">
+        <button class="tab-link active" data-tab="teachers-list">Danh sach giao vien</button>
+        <button class="tab-link" data-tab="teachers-create">Tao giao vien</button>
+        <button class="tab-link" data-tab="positions-list">Vi tri cong tac</button>
+        <button class="tab-link" data-tab="positions-create">Tao vi tri cong tac</button>
+      </nav>
+
+      <main>
+        <section class="tab-panel active" id="teachers-list">
+          <div class="panel-head">
+            <div>
+              <h2>Danh sach giao vien</h2>
+            </div>
+            <button class="ghost-button" id="reload-teachers">Lam moi</button>
+          </div>
+
+          <div class="table-card">
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Ma</th>
+                    <th>Giao vien</th>
+                    <th>Trinh do cao nhat</th>
+                    <th>Bo mon</th>
+                    <th>Vi tri cong tac</th>
+                    <th>Dia chi</th>
+                    <th>Trang thai</th>
+                    <th>Hanh dong</th>
+                  </tr>
+                </thead>
+                <tbody id="teacher-table-body"></tbody>
+              </table>
+            </div>
+            <div class="table-footer">
+              <p id="teacher-pagination-meta">Dang tai du lieu...</p>
+              <div class="pager">
+                <button class="pager-button" id="teacher-prev">Truoc</button>
+                <span id="teacher-page-label">1 / 1</span>
+                <button class="pager-button" id="teacher-next">Sau</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="tab-panel" id="teachers-create">
+          <div class="panel-head">
+            <div>
+              <h2>Tao thong tin giao vien</h2>
+            </div>
+          </div>
+
+          <form id="teacher-form" class="form-card">
+            <div class="teacher-layout">
+              <div class="avatar-box">
+                <label class="avatar-upload" for="teacher-avatar">
+                  <img id="teacher-avatar-preview" class="avatar-image hidden" alt="Anh giao vien" />
+                  <div id="teacher-avatar-fallback" class="avatar-circle">GV</div>
+                  <span class="avatar-upload-text">Chon anh</span>
+                </label>
+                <input id="teacher-avatar" name="avatar" type="file" accept="image/*" hidden />
+              </div>
+
+              <div class="form-grid">
+                <label>
+                  <span>Ho va ten</span>
+                  <input name="name" placeholder="Nguyen Van A" required />
+                </label>
+                <label>
+                  <span>Ngay sinh</span>
+                  <input type="date" name="dob" required />
+                </label>
+                <label>
+                  <span>So dien thoai</span>
+                  <input name="phoneNumber" placeholder="09xxxxxxxx" required />
+                </label>
+                <label>
+                  <span>Email</span>
+                  <input type="email" name="email" placeholder="teacher@school.edu.vn" required />
+                </label>
+                <label>
+                  <span>So CCCD</span>
+                  <input name="identity" placeholder="Nhap so CCCD" required />
+                </label>
+                <label>
+                  <span>Dia chi</span>
+                  <input name="address" placeholder="Phuong, quan, tinh" required />
+                </label>
+              </div>
+            </div>
+
+            <div class="field-row">
+              <label>
+                <span>Vi tri cong tac</span>
+                <select name="teacherPositionId" id="teacher-position-select" required></select>
+              </label>
+              <label>
+                <span>Trang thai</span>
+                <select name="isActive">
+                  <option value="true">Dang cong tac</option>
+                  <option value="false">Ngung</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="educations-block">
+              <div class="panel-head compact">
+                <div>
+                  <h3>Hoc van</h3>
+                </div>
+                <button type="button" class="ghost-button" id="add-education">Them hoc van</button>
+              </div>
+              <div id="educations-list" class="education-list"></div>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="primary-button">Luu giao vien</button>
+            </div>
+          </form>
+        </section>
+
+        <section class="tab-panel" id="positions-list">
+          <div class="panel-head">
+            <div>
+              <h2>Danh sach vi tri cong tac</h2>
+            </div>
+            <button class="ghost-button" id="reload-positions">Lam moi</button>
+          </div>
+
+          <div class="table-card">
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>STT</th>
+                    <th>Ma</th>
+                    <th>Ten</th>
+                    <th>Trang thai</th>
+                    <th>Mo ta</th>
+                  </tr>
+                </thead>
+                <tbody id="position-table-body"></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <section class="tab-panel" id="positions-create">
+          <div class="panel-head">
+            <div>
+              <h2>Vi tri cong tac</h2>
+            </div>
+          </div>
+
+          <form id="position-form" class="form-card compact-card">
+            <label>
+              <span>Ma</span>
+              <input name="code" placeholder="VD: GVBM" required />
+            </label>
+            <label>
+              <span>Ten</span>
+              <input name="name" placeholder="Giao vien bo mon" required />
+            </label>
+            <label>
+              <span>Mo ta</span>
+              <textarea name="des" rows="4" placeholder="Mo ta ngan ve vi tri cong tac" required></textarea>
+            </label>
+            <label>
+              <span>Trang thai</span>
+              <div class="toggle-group">
+                <label class="inline-option">
+                  <input type="radio" name="isActive" value="true" checked />
+                  <span>Hoat dong</span>
+                </label>
+                <label class="inline-option">
+                  <input type="radio" name="isActive" value="false" />
+                  <span>Ngung</span>
+                </label>
+              </div>
+            </label>
+            <div class="form-actions">
+              <button type="submit" class="primary-button">Luu</button>
+            </div>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <dialog id="teacher-dialog">
+      <div class="dialog-head">
+        <h3>Chi tiet giao vien</h3>
+        <button id="close-dialog" class="ghost-button small">Dong</button>
+      </div>
+      <div id="teacher-dialog-content" class="dialog-content"></div>
+    </dialog>
+
+    <div id="toast" class="toast"></div>
+    <script src="/app.js"></script>
+  </body>
+</html>

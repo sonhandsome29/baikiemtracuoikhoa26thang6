@@ -1,0 +1,106 @@
+[
+  {
+    "id": "499bbb5e-1eed-4ce5-a03f-bd9b481ab013",
+    "code": "HOMNAYANGI",
+    "name": "angingonngon",
+    "des": "hom nay ban nhu nao",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "id": "6bd42b6d-f621-43eb-b51f-30eb64f8029d",
+    "code": "0000",
+    "name": "garan",
+    "des": "Giao vien bo mon giang day tai truong",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "id": "64b39975-8765-4aa8-b747-3fb2199850e2",
+    "code": "SON123",
+    "name": "homnayangi",
+    "des": "Giao vien bo mon giang day tai truong",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "id": "147c688d-b19b-4308-89a3-cf6a19b56321",
+    "code": "HEHE1111",
+    "name": "Giao vien bo mon",
+    "des": "Giao vien bo mon giang day tai truong",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "id": "802d451d-f426-4ad1-89f0-f28925b9fecf",
+    "code": "HEHE11",
+    "name": "Giao vien bo mon",
+    "des": "Giao vien bo mon giang day tai truong",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "id": "697b78a0-ad5b-40db-ad51-7ce1e201efbd",
+    "code": "HEHE",
+    "name": "Giao vien bo mon",
+    "des": "Giao vien bo mon giang day tai truong",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "id": "36fa5dcb-a2e2-4e94-af71-e98960002aa3",
+    "code": "HANQUOC",
+    "name": "Han Quoc",
+    "des": "Vi tri cong tac Han Quoc",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "id": "position-tts",
+    "code": "TTS",
+    "name": "Thuc tap sinh",
+    "des": "Giao vien thuc tap sinh tai truong",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "id": "position-gvbm",
+    "code": "GVBM",
+    "name": "Giao vien bo mon",
+    "des": "Giao vien bo mon giang day tai truong",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "id": "position-tbm",
+    "code": "TBM",
+    "name": "Truong bo mon",
+    "des": "Truong bo mon giang day tai truong",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "id": "position-ht",
+    "code": "HT",
+    "name": "Hieu truong",
+    "des": "Hieu truong tai truong hoc",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "id": "position-hp",
+    "code": "HP",
+    "name": "Hieu pho",
+    "des": "Pho hieu truong tai truong hoc",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "id": "position-cbyt",
+    "code": "CBYT",
+    "name": "Can bo Y Te",
+    "des": "Ho tro cong viec y te tai truong",
+    "isActive": true,
+    "isDeleted": false
+  }
+]

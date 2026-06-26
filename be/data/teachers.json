@@ -1,0 +1,373 @@
+[
+  {
+    "id": "8075ff18-a04f-4f96-98e0-5ef3de7540f2",
+    "avatar": "",
+    "code": "1742860425",
+    "name": "karina357",
+    "email": "karinahahah@gmail.com",
+    "phoneNumber": "31321313",
+    "address": "HOCHIMINH",
+    "identity": "3132131",
+    "dob": "3333-03-31",
+    "isActive": true,
+    "isDeleted": false,
+    "role": "TEACHER",
+    "teacherPositionId": "position-tts",
+    "educations": [
+      {
+        "level": "Thac si",
+        "school": "HUST",
+        "major": "softwave enginer",
+        "status": "Đã tốt nghiệp",
+        "graduatedAt": "3333"
+      }
+    ]
+  },
+  {
+    "id": "dc0a7bfc-5caf-4f62-aea8-8cab07cb050d",
+    "avatar": "",
+    "code": "5698363222",
+    "name": "sontung",
+    "email": "sontung@school.edu.vn",
+    "phoneNumber": "0901234567",
+    "address": "Ha Noi",
+    "identity": "123456789012",
+    "dob": "2000-01-01",
+    "isActive": true,
+    "isDeleted": false,
+    "role": "TEACHER",
+    "teacherPositionId": "6bd42b6d-f621-43eb-b51f-30eb64f8029d",
+    "educations": [
+      {
+        "level": "Cu nhan",
+        "school": "Dai hoc Su pham",
+        "major": "Toan hoc",
+        "status": "Da tot nghiep",
+        "graduatedAt": "2022"
+      }
+    ]
+  },
+  {
+    "id": "f0c3195d-0267-432b-b749-7e49c227351e",
+    "avatar": "",
+    "code": "1937754823",
+    "name": "Nguyen Van Test",
+    "email": "nguyenvantest01@school.edu.vn",
+    "phoneNumber": "0901234567",
+    "address": "Ha Noi",
+    "identity": "123456789012",
+    "dob": "2000-01-01",
+    "isActive": true,
+    "isDeleted": false,
+    "role": "TEACHER",
+    "teacherPositionId": "802d451d-f426-4ad1-89f0-f28925b9fecf",
+    "educations": [
+      {
+        "level": "Cu nhan",
+        "school": "Dai hoc Su pham",
+        "major": "Toan hoc",
+        "status": "Da tot nghiep",
+        "graduatedAt": "2022"
+      }
+    ]
+  },
+  {
+    "id": "f6047c3d-83ed-44e3-b86b-e54437e2010b",
+    "code": "7130787862",
+    "name": "Thai Duong Son",
+    "email": "thai.duong.son.1782459542383@school.edu.vn",
+    "phoneNumber": "0901234567",
+    "address": "Han Quoc",
+    "identity": "782459542383",
+    "dob": "1998-04-20",
+    "isActive": true,
+    "isDeleted": false,
+    "role": "TEACHER",
+    "teacherPositionId": "36fa5dcb-a2e2-4e94-af71-e98960002aa3",
+    "educations": [
+      {
+        "level": "Cu nhan",
+        "school": "Dai hoc Quoc gia Seoul",
+        "major": "Ngon ngu Han",
+        "status": "Da tot nghiep",
+        "graduatedAt": "2021"
+      }
+    ]
+  },
+  {
+    "id": "teacher-01",
+    "code": "0798333082",
+    "name": "Pham Duc Trung",
+    "email": "phucdtrung@school.edu.vn",
+    "phoneNumber": "07854933439",
+    "address": "Ha Noi",
+    "identity": "001084002345",
+    "dob": "1988-10-12",
+    "isActive": true,
+    "isDeleted": false,
+    "role": "TEACHER",
+    "teacherPositionId": "position-cbyt",
+    "educations": [
+      {
+        "level": "Thac si",
+        "school": "Dai hoc Y Ha Noi",
+        "major": "Y khoa",
+        "status": "Da tot nghiep",
+        "graduatedAt": "2014"
+      }
+    ]
+  },
+  {
+    "id": "teacher-02",
+    "code": "1031019996",
+    "name": "Nguyen Minh Trung",
+    "email": "minhtrung@school.edu.vn",
+    "phoneNumber": "07756367450",
+    "address": "Thanh Hoa",
+    "identity": "038188112222",
+    "dob": "1990-03-17",
+    "isActive": true,
+    "isDeleted": false,
+    "role": "TEACHER",
+    "teacherPositionId": "position-gvbm",
+    "educations": [
+      {
+        "level": "Cu nhan",
+        "school": "Dai hoc Xay dung",
+        "major": "Ky thuat xay dung",
+        "status": "Da tot nghiep",
+        "graduatedAt": "2012"
+      }
+    ]
+  },
+  {
+    "id": "teacher-03",
+    "code": "2246882558",
+    "name": "Tran Thien Kim",
+    "email": "thienkim@school.edu.vn",
+    "phoneNumber": "08756367444",
+    "address": "Quang Binh",
+    "identity": "044190109876",
+    "dob": "1992-06-22",
+    "isActive": true,
+    "isDeleted": false,
+    "role": "TEACHER",
+    "teacherPositionId": "position-gvbm",
+    "educations": [
+      {
+        "level": "Cu nhan",
+        "school": "Dai hoc Ngoai ngu",
+        "major": "Tieng Anh",
+        "status": "Da tot nghiep",
+        "graduatedAt": "2015"
+      }
+    ]
+  },
+  {
+    "id": "teacher-04",
+    "code": "2621511601",
+    "name": "Hoang Nam",
+    "email": "hoangnam@school.edu.vn",
+    "phoneNumber": "09756367448",
+    "address": "Son La",
+    "identity": "015189123456",
+    "dob": "1987-12-05",
+    "isActive": true,
+    "isDeleted": false,
+    "role": "TEACHER",
+    "teacherPositionId": "position-gvbm",
+    "educations": [
+      {
+        "level": "Cu nhan",
+        "school": "Hoc vien Y duoc hoc co truyen",
+        "major": "Y hoc co truyen",
+        "status": "Da tot nghiep",
+        "graduatedAt": "2011"
+      }
+    ]
+  },
+  {
+    "id": "teacher-05",
+    "code": "3781255661",
+    "name": "Pham Thuy Duong",
+    "email": "thuyduong@school.edu.vn",
+    "phoneNumber": "07756367447",
+    "address": "Ha Nam",
+    "identity": "035190456789",
+    "dob": "1991-09-09",
+    "isActive": true,
+    "isDeleted": false,
+    "role": "TEACHER",
+    "teacherPositionId": "position-gvbm",
+    "educations": [
+      {
+        "level": "Thac si",
+        "school": "Dai hoc Kinh te Quoc dan",
+        "major": "Ke toan",
+        "status": "Da tot nghiep",
+        "graduatedAt": "2016"
+      }
+    ]
+  },
+  {
+    "id": "teacher-06",
+    "code": "4215858843",
+    "name": "Nguyen Minh Tuan",
+    "email": "minhtuan@school.edu.vn",
+    "phoneNumber": "08756367446",
+    "address": "Ninh Binh",
+    "identity": "037190878787",
+    "dob": "1993-02-11",
+    "isActive": true,
+    "isDeleted": false,
+    "role": "TEACHER",
+    "teacherPositionId": "position-gvbm",
+    "educations": [
+      {
+        "level": "Cu nhan",
+        "school": "Dai hoc Su pham Ha Noi",
+        "major": "Toan hoc",
+        "status": "Da tot nghiep",
+        "graduatedAt": "2014"
+      }
+    ]
+  },
+  {
+    "id": "teacher-07",
+    "code": "1864716387",
+    "name": "Tran Anh Thu",
+    "email": "anhthu@school.edu.vn",
+    "phoneNumber": "09756367446",
+    "address": "Dong Nai",
+    "identity": "079191101010",
+    "dob": "1989-04-18",
+    "isActive": true,
+    "isDeleted": false,
+    "role": "TEACHER",
+    "teacherPositionId": "position-gvbm",
+    "educations": [
+      {
+        "level": "Thac si",
+        "school": "Dai hoc Bach khoa",
+        "major": "Khoa hoc moi truong",
+        "status": "Da tot nghiep",
+        "graduatedAt": "2013"
+      }
+    ]
+  },
+  {
+    "id": "teacher-08",
+    "code": "3664683813",
+    "name": "Nguyen Hoang Minh",
+    "email": "hoangminh@school.edu.vn",
+    "phoneNumber": "09756367443",
+    "address": "Binh Duong",
+    "identity": "074192303030",
+    "dob": "1994-08-20",
+    "isActive": true,
+    "isDeleted": false,
+    "role": "TEACHER",
+    "teacherPositionId": "position-gvbm",
+    "educations": [
+      {
+        "level": "Cu nhan",
+        "school": "Dai hoc Cong nghe",
+        "major": "Cong nghe thong tin",
+        "status": "Da tot nghiep",
+        "graduatedAt": "2017"
+      }
+    ]
+  },
+  {
+    "id": "teacher-09",
+    "code": "0399962044",
+    "name": "Lo Khanh Linh",
+    "email": "khanhlinh@school.edu.vn",
+    "phoneNumber": "08756352444",
+    "address": "Lam Dong",
+    "identity": "068193454545",
+    "dob": "1995-07-28",
+    "isActive": true,
+    "isDeleted": false,
+    "role": "TEACHER",
+    "teacherPositionId": "position-gvbm",
+    "educations": [
+      {
+        "level": "Thac si",
+        "school": "Dai hoc Van hoa",
+        "major": "Du lich",
+        "status": "Da tot nghiep",
+        "graduatedAt": "2019"
+      }
+    ]
+  },
+  {
+    "id": "teacher-10",
+    "code": "1952101718",
+    "name": "Le Thanh",
+    "email": "lethanh@school.edu.vn",
+    "phoneNumber": "08756357442",
+    "address": "Bac Giang",
+    "identity": "024194656565",
+    "dob": "1992-11-30",
+    "isActive": true,
+    "isDeleted": false,
+    "role": "TEACHER",
+    "teacherPositionId": "position-gvbm",
+    "educations": [
+      {
+        "level": "Cu nhan",
+        "school": "Hoc vien Nong nghiep",
+        "major": "Khoa hoc cay trong",
+        "status": "Da tot nghiep",
+        "graduatedAt": "2015"
+      }
+    ]
+  },
+  {
+    "id": "teacher-11",
+    "code": "5021117843",
+    "name": "Do Thu Ha",
+    "email": "thuha@school.edu.vn",
+    "phoneNumber": "0901112233",
+    "address": "Da Nang",
+    "identity": "048195112233",
+    "dob": "1996-05-14",
+    "isActive": true,
+    "isDeleted": false,
+    "role": "TEACHER",
+    "teacherPositionId": "position-tts",
+    "educations": [
+      {
+        "level": "Cu nhan",
+        "school": "Dai hoc Su pham Da Nang",
+        "major": "Su pham Hoa hoc",
+        "status": "Dang hoc cao hoc",
+        "graduatedAt": "2020"
+      }
+    ]
+  },
+  {
+    "id": "teacher-12",
+    "code": "6114523988",
+    "name": "Bui Quoc Viet",
+    "email": "quocviet@school.edu.vn",
+    "phoneNumber": "0912233445",
+    "address": "Hai Phong",
+    "identity": "031196778899",
+    "dob": "1986-01-25",
+    "isActive": true,
+    "isDeleted": false,
+    "role": "TEACHER",
+    "teacherPositionId": "position-tbm",
+    "educations": [
+      {
+        "level": "Tien si",
+        "school": "Dai hoc Bach khoa Ha Noi",
+        "major": "Ky thuat co khi",
+        "status": "Da tot nghiep",
+        "graduatedAt": "2012"
+      }
+    ]
+  }
+]
